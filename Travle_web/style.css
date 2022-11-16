@@ -1,0 +1,503 @@
+img{
+    width: 100%;
+}
+
+/* ----------------------------- Banner Section ----------------------------- */
+
+.banner_section{
+    background-image: url("asset/images/header@2x.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4px 0px;
+    position: relative;
+    overflow: hidden;
+}
+.banner_section .navbar .navbar-nav .nav-item .nav-link{
+    font-family: "Roboto",Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: -.5px;
+    padding: 0 30px;
+    color: black;
+}
+.banner_section .navbar .navbar-nav .nav-item .nav-link i{
+    padding-left: 5px;
+}
+.banner_section .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: black;
+}
+.banner_section .navbar .navbar-nav .dropdown .dropdown-menu{
+    display: none;
+}
+.banner_section .navbar .navbar-nav .dropdown:hover .dropdown-menu{
+    display: inline-block;
+}
+.banner_section .navbar .navbar-nav .dropdown .dropdown-menu{
+    border: none;
+}
+.banner_section .navbar .navbar-nav .dropdown .dropdown-menu .dropdown-item{
+    padding: 15px 20px;
+}
+.banner_section .banner_content{
+    padding: 198px 0px 29px 0px;
+}
+.banner_section .banner_content h1{
+    font-size: 143px;
+    font-weight: 900;
+    line-height: 128px;
+    text-shadow: 0px 5px 30px rgba(0,0,0,.16);
+    margin: 0;
+    color: white;
+    margin: 0 0 .25em;
+}
+.banner_section .banner_content h1 span{
+    font-size: 126px;
+    font-weight: 900;
+    line-height: 128px;
+}
+.banner_section .banner_content p{
+    font-family: "Open Sans",Sans-serif;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 4.5px;
+    margin: 0 0 2em;
+    color: white;
+}
+.banner_section .banner_content .btn{
+    background-color: transparent;
+    padding: 11px 70px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+.banner_section .banner_content .btn:focus{
+    box-shadow: none;
+}
+.banner_section .banner_content .social_icon_section h3{
+    font-family: "Lato",Sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+}
+.banner_section .banner_content .social_icon_section p{
+    font-family: "Lato",Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255,255,255,.5);
+    max-width: 21%;
+    letter-spacing: 0;
+}
+.banner_section .banner_content .social_icon_section .icon a{
+    text-decoration: none;
+}
+.banner_section .banner_content .social_icon_section .icon .fa{
+    padding: 4px;
+    font-size: 17px;
+    width: 29px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+    margin-bottom: 20px;
+}
+.banner_section .left_cloud{
+    position: absolute;
+    left: -123px;
+    top: 10%;
+}
+.banner_section .right_cloud{
+    position: absolute;
+    right: -142px;
+    top: 10%;
+}
+/* --------------------------- Destination Section -------------------------- */
+
+.destinations_section{
+    padding: 100px 0px;
+}
+.destinations_section h3{
+    font-family: "Poppins",Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 46px;
+    color: #a4a4a4;
+}
+.destinations_section h1{
+    font-family: "Poppins",Sans-serif; 
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #474747;
+}
+.destinations_section .aria_section{
+    margin-bottom: 85px;
+}
+.destinations_section .col-md-6,.destinations_section .col-md-4{
+    padding: 10px;
+}
+.destinations_section a:hover{
+    text-decoration: none;
+}
+.destinations_section a .content{
+    position: absolute;
+    text-align: left;
+    left: 30px;
+    bottom: 30px;
+}
+.destinations_section a img{
+    height: 320px;
+    border-radius: 15px;
+}
+
+.destinations_section a .content h1{
+    font-family: "Poppins",Sans-serif;
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 100px;
+    margin: 0;
+    color:white;
+}
+.destinations_section a .content p{
+    font-family: "Open Sans",Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    color:white;
+}
+.destinations_section .btn{
+    padding: 25px 100px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0);
+    background-color: #b6323f;
+    border-radius: 50px; 
+    color: #fff;
+    font-family: "Roboto",Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.destinations_section .btn:hover{
+    box-shadow: none;
+}
+
+/* ----------------------------- Holiday Section ---------------------------- */
+
+.holiday_section{
+    padding: 100px 0px;
+    margin-bottom: 200px;
+}
+.holiday_section .holi_img img{
+    border-radius: 50px;
+}
+.holiday_section .holi_img .holi_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;    
+} 
+.holiday_section .holi_img .holi_content h1{
+    font-family: "Poppins",Sans-serif;
+    font-size: 143px;
+    font-weight: 900;
+    line-height: 128px;
+    margin: 0;
+    color: white;
+}
+.holiday_section .holi_img .holi_content h1 span{
+    font-family: "Poppins",Sans-serif;
+    font-size: 122px;
+    font-weight: 900;
+    line-height: 128px;
+    margin: 0;
+}
+
+.holiday_section .holi_img .front_img{
+    position: absolute;
+    top: 0;
+    left: o;
+    right: 0;
+    bottom: 0;
+}
+
+.holiday_section .holi_img .btn{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 20px 50px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+.holiday_section .holi_img .btn:hover{
+    box-shadow: none;
+    outline: none;
+}
+
+/* ------------------------------ Order Section ----------------------------- */
+.order_section{
+    padding: 100px 0px;
+    margin-bottom: 200px;
+}
+.order_section h5{
+    font-family: "Poppins",Sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 26px;
+    margin: 0;
+    color: black;
+}
+.order_section h1{
+    font-family: "Poppins",Sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 136px;
+    margin: 0 0 .3em;
+    color: black;
+}
+.order_section p{
+    color: #aaa;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    max-width: 76%;
+    margin: 0 0 1em;
+}
+.order_section h2{
+    font-family: "Roboto",Sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 59px;
+}
+.order_section h2 span{
+    font-family: "Roboto",Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: line-through;
+    line-height: 26px;
+    color: #aaa;
+}
+.order_section .btn{
+    color: #fff;
+    font-family: "Roboto",Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 3% 11%;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0);
+    border-radius: 50px;
+}
+.order_section .exprience{
+    position: relative;
+}
+.order_section .exprience img{
+    border-radius: 20px;
+}
+.order_section .exprience .exprience_content{
+    padding: 0 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 60%;
+    position: absolute;
+    bottom: -104px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+}
+.order_section .exprience .exprience_content h4{
+    font-family: "Poppins",Sans-serif;
+    font-size: 1.9vw;
+    font-weight: 700;
+    line-height: 128px;
+}
+
+/* --------------------------- Our Packges section -------------------------- */
+.our_packges_section{
+    padding: 100px 0px;
+    margin-bottom: 200px;
+}
+.our_packges_section h2{
+    font-family: "Poppins",Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 46px;
+    color: #a4a4a4;
+}
+.our_packges_section h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #474747;
+    margin-bottom: 70px;
+}
+.our_packges_section .col-md-4{
+    padding: 20px;
+    position: relative;
+}
+.our_packges_section .col-md-4:hover img {
+    transform: translateY(-20px);
+    box-shadow: 0 20px 40px #4d4d4d;
+    transition: 1s; 
+}
+.our_packges_section .col-md-4:hover .packges_details{
+    transform: translateY(-20px);
+    transition: 1s; 
+}
+
+.our_packges_section a:hover{
+    text-decoration: none; 
+}
+.our_packges_section img{
+    height: 700px;
+    border-radius: 20px
+}
+
+.our_packges_section .packges_details{
+    position: absolute;
+    bottom: 75px;
+    left: 45px;
+}
+.our_packges_section .packges_details h3{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 2.375em;
+    line-height: 1.5;
+    margin-bottom: .5em;
+    color: white;
+}
+.our_packges_section .packges_details h6{
+    font-family: 'Poppins';
+    color: rgba(255,255,255,.75);
+    font-size: 16px;
+    font-weight: 400;
+}
+.our_packges_section .packges_details p{
+    font-family: 'Poppins';
+    color: rgba(255,255,255,.8);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.our_packges_section .packges_details .btn{
+    font-family: "Roboto",Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0);
+    color: white;
+    padding: 2% 8%;
+    border-radius: 50px;
+}
+
+/* ------------------------------ Mail Section ------------------------------ */
+
+.mail_section{
+    background-image:linear-gradient(180deg,rgba(255,255,255,0) 20%,#fff 100%), url("asset/images/footer@2x-scaled.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+    padding: 224px 0px;
+}
+.mail_section p{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 0;
+    color: black;
+}
+.mail_section h1{
+    font-family: 'Poppins';
+    font-size: 4.4em;
+    font-weight: 700;
+    line-height: 120px;
+    margin: 0;
+    color: black;
+}
+.mail_section .size_padding{
+    padding: 48px 0px;
+}
+.mail_section .input-group input{
+    height: 65px;
+    border-radius: 37px;
+    padding: 20px 0 20px 37px;
+    transition: all ease-out .3s;
+}
+.mail_section .input-group-append a{
+    text-decoration: none;
+}
+.mail_section .input-group-append a span{
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    width: 130px;
+    height: 65px;
+    border-radius: 37px 37px 37px 37px;
+    color: #fff;
+    background-color: #01B9F3;
+    padding: 31px;
+    
+}
+
+/* ----------------------------- Footer Section ----------------------------- */
+
+.footer_nav img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.footer_nav p{
+    font-family: 'Poppins';
+    color: #aaa;
+    font-family: "Roboto",Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 0 1em;
+}
+.footer_nav h5{
+    font-family: "Roboto",Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+}
+.footer_nav ul{
+    padding-left: 0;
+}
+.footer_nav ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer_nav ul li span{
+    color: #ccc9c9;
+    font-family: "Roboto",Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer_nav ul li span i{
+    padding-right: 5px;
+}
+
+/* --------------------------------- Footer --------------------------------- */
+.footer{
+    background-color: #00b9f3;
+}
+.footer h5{
+    font-size: 20px;
+    margin-bottom: 0;
+    padding: 5px 0px;
+}
